@@ -1,0 +1,46 @@
+
+/* Original image */
+.imageload
+{
+    background: url("neu.jpg");
+    background-repeat: space;
+    background-size: cover;
+    height:500px;
+    width:500px;
+}
+
+/* Cropped image */
+.imgcropped
+{
+    height:500px;
+    width:500px;
+    position: absolute;
+}
+
+/* Crop */
+.cropping{
+    overflow: hidden;
+    height:500px;
+    width:500px;
+    left: 600px;
+    top: 80px;
+    position: absolute;
+}
+
+/* Resizeable grid */
+.grid-item {
+    border: 1px solid rgba(255, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+/* Container styling */
+.container {
+    display: none;
+    grid-template-columns: auto auto auto;
+   /* max-width:500px;
+    max-height:500px; */
+    position:fixed;
+    top: 80px;
+    left: 7px;
+}
